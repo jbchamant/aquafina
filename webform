@@ -1,0 +1,58 @@
+<!--  ----------------------------------------------------------------------  -->
+<!--  REMARQUE : Ajoutez l'élément suivant <META> à votre page <HEAD>. Si     -->
+<!--  nécessaire, modifiez le paramètre charset pour spécifier le jeu de      -->
+<!--  caractères de votre page HTML.                                          -->
+<!--  ----------------------------------------------------------------------  -->
+
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  REMARQUE : Ajoutez l'élément suivant <FORM> à votre page.               -->
+<!--  ----------------------------------------------------------------------  -->
+
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+<input type=hidden name="oid" value="00D3X0000045mYD">
+<input type=hidden name="retURL" value="https://raw.githubusercontent.com/jbchamant/aquafina/master/hello">
+
+<!--  ----------------------------------------------------------------------  -->
+<!--  REMARQUE : Ces champs sont des éléments de débogage facultatifs.        -->
+<!--  N'insérez aucun commentaire sur ces lignes si vous voulez tester en     -->
+<!--  mode débogage.                                                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail" value="jbchamant@hotmail.fr">    -->
+<!--  ----------------------------------------------------------------------  -->
+
+<label for="company">Société</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+<label for="salutation">Civilité</label><select  id="salutation" name="salutation"><option value="">- Aucun -</option><option value="Madame">Madame</option>
+<option value="Monsieur">Monsieur</option>
+</select><br>
+
+<label for="last_name">Nom</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+
+<label for="first_name">Prénom</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+
+<label for="industry">Secteur d'activité</label><select  id="industry" name="industry"><option value="">- Aucun -</option><option value="Restauration">Restauration</option>
+<option value="Distribution">Distribution</option>
+</select><br>
+
+<label for="email">Adresse e-mail</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+
+<label for="city">Ville</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+
+<label for="state">Région/Province (texte uniquement)</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+
+<label for="phone">Téléphone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+
+<label for="mobile">Téléphone mobile</label><input  id="mobile" maxlength="40" name="mobile" size="20" type="text" /><br>
+
+<label for="street">Rue</label><textarea name="street"></textarea><br>
+
+<label for="zip">Code postal</label><input  id="zip" maxlength="20" name="zip" size="20" type="text" /><br>
+
+<label for="country">Pays (texte uniquement)</label><input  id="country" maxlength="40" name="country" size="20" type="text" /><br>
+
+<input type="submit" name="submit">
+
+</form>
