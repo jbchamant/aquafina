@@ -1,14 +1,8 @@
-<!--  ----------------------------------------------------------------------  -->
-<!--  REMARQUE : Ajoutez l'élément suivant <META> à votre page <HEAD>. Si     -->
-<!--  nécessaire, modifiez le paramètre charset pour spécifier le jeu de      -->
-<!--  caractères de votre page HTML.                                          -->
-<!--  ----------------------------------------------------------------------  -->
+
 
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
-<!--  ----------------------------------------------------------------------  -->
-<!--  REMARQUE : Ajoutez l'élément suivant <FORM> à votre page.               -->
-<!--  ----------------------------------------------------------------------  -->
+<html>
 
 <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
@@ -56,3 +50,4 @@
 <input type="submit" name="submit">
 
 </form>
+</html>
